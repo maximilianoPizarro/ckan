@@ -164,6 +164,14 @@ zipp==3.7.0
     # via importlib-metadata
 zope-interface==5.4.0
     # via -r requirements.in
+ckanext-oauth2==0.6.0
 
+oauth2
+
+oauthlib
+
+requests-oauthlib==0.8.0
+
+setuptools==44.1.0
 # The following packages are considered to be unsafe in a requirements file:
 # setuptools

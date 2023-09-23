@@ -90,6 +90,7 @@ ckan-dev mailing list or on Gitter.
 .. _CKAN Wiki: https://github.com/ckan/ckan/wiki
 .. _CKAN chat on Gitter: https://gitter.im/ckan/chat
 
+ckan -c who.ini sysadmin add mpizarro email=maximiliano.pizarro@gmail.com name=mpizarro
 
 Copying and License
 -------------------
