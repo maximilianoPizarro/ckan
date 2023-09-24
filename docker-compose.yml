@@ -16,6 +16,7 @@ services:
         #- CKAN_INI=/usr/lib/who.ini      
         - WTF_CSRF_ENABLED=False
         - WTF_CSRF_CHECK_DEFAULT=True
+        - OAUTHLIB_INSECURE_TRANSPORT=True
       volumes:
         - ./who.ini:/usr/lib/who.ini                
       depends_on:
