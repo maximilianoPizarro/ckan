@@ -86,7 +86,7 @@ polib==1.1.1
     # via -r requirements.in
 psycopg2==2.9.3
     # via -r requirements.in
-pyjwt==2.4.0
+pyjwt==1.7.1
     # via -r requirements.in
 pyparsing==3.0.7
     # via packaging
@@ -164,13 +164,11 @@ zipp==3.7.0
     # via importlib-metadata
 zope-interface==5.4.0
     # via -r requirements.in
-ckanext-oauth2==0.6.0
-
-oauth2
-
-oauthlib
+#ckanext-oauth2==0.7.0
 
 requests-oauthlib==0.8.0
+
+python-oauth2==1.1.1
 
 setuptools==44.1.0
 # The following packages are considered to be unsafe in a requirements file:
